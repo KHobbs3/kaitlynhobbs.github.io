@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaitlyn Hobbs</title>
+    <link>https://kaitlynhobbs.github.io/pt-fr/</link>
+    <description>Recent content on Kaitlyn Hobbs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-fr</language>
+    <atom:link href="https://kaitlynhobbs.github.io/pt-fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://kaitlynhobbs.github.io/pt-fr/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/pt-fr/about/</guid>
+      <description>[à venir.]</description>
+    </item>
+    <item>
+      <title>Contactez-moi</title>
+      <link>https://kaitlynhobbs.github.io/pt-fr/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/pt-fr/contact/</guid>
+      <description>Envoyez-moi via LinkedIn ou khobbs3@uwo.ca.</description>
+    </item>
+  </channel>
+</rss>

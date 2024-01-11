@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaitlyn Hobbs</title>
+    <link>https://kaitlynhobbs.github.io/authors/kaitlyn-hobbs/</link>
+    <description>Recent content on Kaitlyn Hobbs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kaitlynhobbs.github.io/authors/kaitlyn-hobbs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Report: Improving access to palliative care.</title>
+      <link>https://kaitlynhobbs.github.io/projects/rtp-pain-relief/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/projects/rtp-pain-relief/</guid>
+      <description>As part of the Fall 2023 Research Training Program through Charity Entrepreneurship, 16 of us from across the globe met virtually to research and discuss the topic of effective giving over 11-weeks. In it, we learned ways to prioritise cause areas, compared different intervention ideas within a single cause area, and evaluated plausibility and cost-effectiveness of seemingly promising new interventions.&#xA;This report investigates the plausibility of starting a new charity increases access to at-home palliative care in Sub-saharan Africa.</description>
+    </item>
+    <item>
+      <title>Research Report: Mass media for increasing caregiver awareness</title>
+      <link>https://kaitlynhobbs.github.io/projects/rtp-mass-media/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/projects/rtp-mass-media/</guid>
+      <description>As part of the Fall 2023 Research Training Program through Charity Entrepreneurship, 16 of us from across the globe met virtually to research and discuss the topic of effective giving over 11-weeks. In it, we learned ways to prioritise cause areas, compared different intervention ideas within a single cause area, and evaluated plausibility and cost-effectiveness of seemingly promising new interventions.&#xA;This report investigates the plausibility of starting a new charity that leverages mass media to increase health-seeking and health-protecting behaviours in low-middle income countries.</description>
+    </item>
+  </channel>
+</rss>
