@@ -1,0 +1,7 @@
+.DS_Store
+themes/.DS_Store
+package-lock.json
+package.json
+themes/pico
+themes/vncnt-hugo
+.hugo_build.lock

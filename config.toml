@@ -1,146 +1,226 @@
-# Use an empty string if you have multiple domain linking to your website
-# This string is used to generate the absolute URL for your assets.
-baseURL = 'https://kaitlynhobbs.github.io/'
-defaultContentLanguage = 'en'
+baseURL = "https://kaitlynhobbs.github.io/"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "en"
+language = "en"
+theme = "hugo-coder"
+title = "Kaitlyn Hobbs"
 
-# Emoji in markdown files
-enableEmoji = true
-languageCode = 'en-us'
-
-# Number of blog post per page
-paginate = 10
-theme = 'pico'
-
-# Title of the website is used for the meta tag title
-# and the square icon (not the favicon)
-title = 'KT Portfolio'
+[markup.highlight]
+noClasses = false
 
 [params]
-customCSS = [
-	"style/style.css",
-	"style/theme.sass",
-] # Path relative to assets folder
-customJS = ["js/console.js"] # Path relative to assets folder
-# Homepage description
+author = "Kaitlyn Hobbs"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "Kaitlyn Hobbs's Portfolio"
+keywords = "blog,developer,personal"
+info = ["Data Scientist", "Researcher", "Generalist"]
+avatarURL = "images/avatar.jpg"
+#gravatar = "john.doe@example.com"
+dateFormat = "January 2, 2006"
+since = 2019
+# Git Commit in Footer, uncomment the line below to enable it
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
 
-# For blog page description you can overwrite it 
-# in the front matter
-description = "Boilerplate website"
-email = "khobbs3@uwo.ca"
-favicon = '/favicon.ico'
-# Dark mode support
-# Supported value are :
-# - off
-# - always
-# If commented the theme will use the browser theme.
-darkMode = 'always'
+# Custom JS
+customJS = []
 
-# Social parameters for contact_icons widget
-[[params.social]]
-alt = "email icon"
-icon = "/icons/email.svg"
-name = "email"
-url = "mailto:mail@example.com"
+# Custom remote JS files
+customRemoteJS = []
 
-[[params.social]]
-alt = "github icon"
-blank = true
-icon = "/icons/github.svg"
-name = "github"
-url = "https://github.com/"
+# If you want to use fathom(https://usefathom.com) for analytics, add this section
+# [params.fathomAnalytics]
+# siteID = "ABCDE"
+# serverURL = "analytics.example.com" # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
 
-[[params.social]]
-alt = "medium icon"
-blank = true
-icon = "/icons/medium.svg"
-name = "medium"
-url = "https://medium.com/"
+# If you want to use plausible(https://plausible.io) for analytics, add this section
+# [params.plausibleAnalytics]
+# domain = "example.com"
+# serverURL = "analytics.example.com" # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+# outboundLinksTracking = true
+# fileDownloadsTracking = true
 
-[[params.social]]
-alt = "stack-overflow icon"
-blank = true
-icon = "/icons/stack-overflow.svg"
-name = "stack-overflow"
-url = "https://stackoverflow.com/"
+# If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
+# [params.goatCounter]
+# code = "code"
 
-[[params.social]]
-alt = "twitter icon"
-blank = true
-icon = "/icons/twitter.svg"
-name = "twitter"
-url = "https://twitter.com/"
+# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
+# [params.cloudflare]
+# token = "token"
 
-[[params.social]]
-alt = "facebook icon"
-blank = true
-icon = "/icons/facebook.svg"
-name = "facebook"
-url = "https://facebook.com/"
+# If you want to use Matomo(https://matomo.org) for analytics, add this section
+# [params.matomo]
+# siteID = "ABCDE" # Default value is "1", overwrite this if you are cloud-hosting
+# serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
 
-# Navigation bar
-[menu]
+# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
+# [params.googleTagManager]
+# id = "gid"
 
-[[menu.main]]
-identifier = "home" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/" 
-weight = 10 
+# If you want to use Yandex Metrika(https://metrika.yandex.ru) for analytics, add this section
+# [params.yandexMetrika]
+# id = "gid"
 
-[[menu.main]]
-identifier = "blog" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/blog/" 
-weight = 20 
+# If you want to use Application Insights(https://azure.com/) for analytics, add this section
+# [params.applicationInsights]
+# connectionString = "connectionString"
 
-[[menu.main]]
-identifier = "contact" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/#contact" 
-weight = 30 
+# If you want to use microanalytics.io for analytics, add this section
+# [params.microAnalytics]
+# id = "ABCDE"
+# dnt = "false" # respect DNT tracker, "true" by default
 
-# Syntax highlighting
-[markup.highlight]
-guessSyntax = true 
-lineNumbersInTable = true 
-noClasses = false # Set to false to use the Pico default theme.
-tabWidth = 2 
+# If you want to use Pirsch(https://pirsch.io) for analytics, add this section
+# [params.pirsch]
+# code = "ABCDE"
+
+# If you want to use Umami(https://umami.is) for analytics, add this section
+# [params.umami]
+# siteID = "ABCDE"
+# scriptURL = "analytics.REGION.umami.is/SCRIPTNAME.js"
+
+# If you want to implement a Content-Security-Policy, add this section
+# [params.csp]
+# childsrc = ["'self'"]
+# fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+# formaction = ["'self'"]
+# framesrc = ["'self'", "https://www.youtube.com"]
+# imgsrc = ["'self'"]
+# objectsrc = ["'none'"]
+# stylesrc = [
+#   "'self'",
+#   "'unsafe-inline'",
+#   "https://fonts.googleapis.com/",
+#   "https://cdn.jsdelivr.net/",
+# ]
+# scriptsrc = [
+#   "'self'",
+#   "'unsafe-inline'",
+#   "https://www.google-analytics.com",
+#   "https://cdn.jsdelivr.net/",
+# ]
+# prefetchsrc = ["'self'"]
+# # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
+# connectsrc = ["'self'", "https://www.google-analytics.com"]
 
 [taxonomies]
 category = "categories"
+series = "series"
 tag = "tags"
+author = "authors"
 
-# Translation
-# English, French and Italian are supported but you can contribute
-# by adding translation to i18n/ folder.
-[languages.en]
-contentDir = 'content/en'
-languageCode = 'en'
-languageName = 'English'
-weight = 0
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/khobbs3/"
 
-[languages.fr]
-contentDir = 'content/fr'
-languageCode = 'fr'
-languageName = 'Français'
+[[params.social]]
+name = "Gitlab"
+icon = "fa fa-2x fa-gitlab"
 weight = 2
+url = "https://gitlab.com/kaitlynhobbs/"
 
-# Uncomment the following lines to add an italian translation.
-# [languages.it]
-# contentDir = 'content/it'
-# languageCode = 'it'
-# languageName = 'Italiano'
-# weight = 3
+#[[params.social]]
+#name = "Twitter"
+#icon = "fa fa-2x fa-twitter"
+#weight = 3
+#url = "https://twitter.com/johndoe/"
 
-# Uncomment the following lines to add an spanish translation.
-# [languages.es]
-# contentDir = 'content/es'
-# languageCode = 'es'
-# languageName = 'Español'
-# weight = 4
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/kthobbs/"
 
-# Uncomment the following lines to add a German translation.
-# [languages.de]
-# contentDir = 'content/de'
-# languageCode = 'de'
-# languageName = 'Deutsch'
-# weight = 5
+#[[params.social]]
+#name = "Medium"
+#icon = "fa fa-2x fa-medium"
+#weight = 5
+#url = "https://medium.com/@johndoe"
+
+#[[params.social]]
+#name = "RSS"
+#icon = "fa fa-2x fa-rss"
+#weight = 6
+#url = "https://myhugosite.com/index.xml"
+#rel = "alternate"
+#type = "application/rss+xml"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+#[[languages.en.menu.main]]
+#name = "Blog"
+#weight = 2
+#url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
+
+[languages.pt-fr]
+languageName = ":fr:"
+title = "Kaitlyn Hobbs"
+
+[languages.pt-fr.params]
+author = "Kaitlyn Hobbs"
+info = "Scientiste de données | chercheuse | généraliste"
+description = ""
+keywords = "blog,desenvolvedor,pessoal"
+
+[[languages.pt-fr.menu.main]]
+name = "À propos"
+weight = 1
+url = "about/"
+
+#[[languages.pt-fr.menu.main]]
+#name = "Blog"
+#weight = 2
+#url = "posts/"
+
+#[[languages.pt-fr.menu.main]]
+#name = "Projets"
+#weight = 3
+#url = "projects/"
+
+[[languages.pt-fr.menu.main]]
+name = "Contactez"
+weight = 5
+url = "contact/"
