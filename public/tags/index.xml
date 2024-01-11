@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kaitlyn Hobbs</title>
+    <link>https://kaitlynhobbs.github.io/tags/</link>
+    <description>Recent content in Tags on Kaitlyn Hobbs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kaitlynhobbs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cost-effectiveness</title>
+      <link>https://kaitlynhobbs.github.io/tags/cost-effectiveness/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/tags/cost-effectiveness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>effective-giving</title>
+      <link>https://kaitlynhobbs.github.io/tags/effective-giving/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/tags/effective-giving/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>geographic-weighted-factor-model</title>
+      <link>https://kaitlynhobbs.github.io/tags/geographic-weighted-factor-model/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/tags/geographic-weighted-factor-model/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>research</title>
+      <link>https://kaitlynhobbs.github.io/tags/research/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
