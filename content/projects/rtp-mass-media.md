@@ -1,8 +1,8 @@
 +++
 authors = ["Kaitlyn Hobbs"]
-title = "Research Report: Mass media for increasing caregiver awareness"
+title = "Research Report: Mass media for increasing caregiver awareness."
 date = "2023-11-10"
-description = "Research Report: Mass media for increasing caregiver awareness"
+description = "Research Report: Mass media for increasing caregiver awareness."
 tags = [
     "research",
     "effective-giving",

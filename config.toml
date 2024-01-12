@@ -79,8 +79,8 @@ customRemoteJS = []
 # serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-# [params.googleTagManager]
-# id = "gid"
+[params.googleTagManager]
+id = "gid"
 
 # If you want to use Yandex Metrika(https://metrika.yandex.ru) for analytics, add this section
 # [params.yandexMetrika]
@@ -135,6 +135,12 @@ tag = "tags"
 author = "authors"
 
 [[params.social]]
+name = "EAForum"
+icon = "fa fa-2x fa-user"
+weight = 3
+url = "https://forum.effectivealtruism.org/users/kt-hobbs-1"
+
+[[params.social]]
 name = "Github"
 icon = "fa fa-2x fa-github"
 weight = 1
@@ -145,12 +151,6 @@ name = "Gitlab"
 icon = "fa fa-2x fa-gitlab"
 weight = 2
 url = "https://gitlab.com/kaitlynhobbs/"
-
-#[[params.social]]
-#name = "Twitter"
-#icon = "fa fa-2x fa-twitter"
-#weight = 3
-#url = "https://twitter.com/johndoe/"
 
 [[params.social]]
 name = "LinkedIn"
@@ -164,16 +164,16 @@ url = "https://www.linkedin.com/in/kthobbs/"
 #weight = 5
 #url = "https://medium.com/@johndoe"
 
-#[[params.social]]
-#name = "RSS"
-#icon = "fa fa-2x fa-rss"
-#weight = 6
-#url = "https://myhugosite.com/index.xml"
+[[params.social]]
+name = "Warm Hearts Kelowna"
+icon = "fa fa-2x fa-instagram"
+weight = 6
+url = "https://www.instagram.com/warmheartskelowna/"
 #rel = "alternate"
 #type = "application/rss+xml"
 
 [languages.en]
-languageName = ":uk:"
+languageName = ":canada:"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -186,7 +186,7 @@ url = "about/"
 #url = "posts/"
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "Open Projects"
 weight = 3
 url = "projects/"
 
@@ -216,7 +216,7 @@ url = "about/"
 #url = "posts/"
 
 #[[languages.pt-fr.menu.main]]
-#name = "Projets"
+#name = "Projets Ouverts"
 #weight = 3
 #url = "projects/"
 
