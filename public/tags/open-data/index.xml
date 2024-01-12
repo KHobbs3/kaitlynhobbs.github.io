@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open-data on Kaitlyn Hobbs</title>
+    <link>https://kaitlynhobbs.github.io/tags/open-data/</link>
+    <description>Recent content in open-data on Kaitlyn Hobbs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kaitlynhobbs.github.io/tags/open-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spatial Access Measures.</title>
+      <link>https://kaitlynhobbs.github.io/projects/spatial-access-measures/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/projects/spatial-access-measures/</guid>
+      <description>The Spatial Access Measures (SAM) are a result of a work commissioned by Infrastructure Canada to develop data and analytical frameworks for assessing the landscape of public transportation in Canada.</description>
+    </item>
+    <item>
+      <title>Open Database Development: Linkable Open Data Environment.</title>
+      <link>https://kaitlynhobbs.github.io/projects/lode/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/projects/lode/</guid>
+      <description>The Linkable Open Data Environment (LODE) is a government open data initiative to consolidate micro-data into singular, connective, geospatial databases. I contributed to the development of the LODE production pipeline and dissemination of several complete databases including:&#xA;The Open Database of Infrastructure (ODI) - May 8, 2023 — Version 1.0 The Open Database of Education Facilities (ODEF) - November 28, 2022 — Version 2.1 &amp;amp; April 9, 2021 — Version 2.</description>
+    </item>
+    <item>
+      <title>Real-Time Local Business Conditions Index.</title>
+      <link>https://kaitlynhobbs.github.io/projects/rtlbci/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/projects/rtlbci/</guid>
+      <description>Highlighting several population centres in Canada, the Real-time Local Business Conditions Index (RTLBCI) is an experimental indicator of business operations that leverages public and proprietary micro-data.</description>
+    </item>
+    <item>
+      <title>Capstone Project: Covid-19 Outbreak Analysis.</title>
+      <link>https://kaitlynhobbs.github.io/projects/covid-19-ubco/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/projects/covid-19-ubco/</guid>
+      <description>Student Capstone Project Highlight Link to heading Our team of 3 developed a provincial database of long‐term care (LTC) homes and modelled COVID‐19 outbreaks in British Columbia. This work done as part of a capstone project at The University of British Columbia (UBC) under guidance from Statistics Canada has been highlighted by UBC.</description>
+    </item>
+  </channel>
+</rss>

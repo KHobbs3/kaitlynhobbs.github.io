@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>business on Kaitlyn Hobbs</title>
+    <link>https://kaitlynhobbs.github.io/tags/business/</link>
+    <description>Recent content in business on Kaitlyn Hobbs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kaitlynhobbs.github.io/tags/business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-Time Local Business Conditions Index.</title>
+      <link>https://kaitlynhobbs.github.io/projects/rtlbci/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/projects/rtlbci/</guid>
+      <description>Highlighting several population centres in Canada, the Real-time Local Business Conditions Index (RTLBCI) is an experimental indicator of business operations that leverages public and proprietary micro-data.</description>
+    </item>
+  </channel>
+</rss>
