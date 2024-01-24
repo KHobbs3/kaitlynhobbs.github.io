@@ -9,16 +9,30 @@
     <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kaitlynhobbs.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>charity-entrepreneurship</title>
+      <link>https://kaitlynhobbs.github.io/categories/charity-entrepreneurship/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/categories/charity-entrepreneurship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>statistics-canada</title>
+      <link>https://kaitlynhobbs.github.io/categories/statistics-canada/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaitlynhobbs.github.io/categories/statistics-canada/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>syntax</title>
       <link>https://kaitlynhobbs.github.io/categories/syntax/</link>
-      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://kaitlynhobbs.github.io/categories/syntax/</guid>
       <description></description>
     </item>
     <item>
       <title>theme demo</title>
       <link>https://kaitlynhobbs.github.io/categories/theme-demo/</link>
-      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://kaitlynhobbs.github.io/categories/theme-demo/</guid>
       <description></description>
     </item>

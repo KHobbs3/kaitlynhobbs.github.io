@@ -10,23 +10,23 @@
     <atom:link href="https://kaitlynhobbs.github.io/tags/spatial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spatial Access Measures.</title>
-      <link>https://kaitlynhobbs.github.io/projects/spatial-access-measures/</link>
+      <link>https://kaitlynhobbs.github.io/posts/spatial-access-measures/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://kaitlynhobbs.github.io/projects/spatial-access-measures/</guid>
+      <guid>https://kaitlynhobbs.github.io/posts/spatial-access-measures/</guid>
       <description>The Spatial Access Measures (SAM) are a result of work commissioned by Infrastructure Canada to develop data and analytical frameworks for assessing the landscape of public transportation in Canada.</description>
     </item>
     <item>
       <title>Real-Time Local Business Conditions Index.</title>
-      <link>https://kaitlynhobbs.github.io/projects/rtlbci/</link>
+      <link>https://kaitlynhobbs.github.io/posts/rtlbci/</link>
       <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://kaitlynhobbs.github.io/projects/rtlbci/</guid>
+      <guid>https://kaitlynhobbs.github.io/posts/rtlbci/</guid>
       <description>Highlighting several population centres in Canada, the Real-time Local Business Conditions Index (RTLBCI) is an experimental indicator of business operations that leverages public and proprietary micro-data.</description>
     </item>
     <item>
       <title>Capstone Project: Covid-19 Outbreak Analysis.</title>
-      <link>https://kaitlynhobbs.github.io/projects/covid-19-ubco/</link>
+      <link>https://kaitlynhobbs.github.io/posts/covid-19-ubco/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://kaitlynhobbs.github.io/projects/covid-19-ubco/</guid>
+      <guid>https://kaitlynhobbs.github.io/posts/covid-19-ubco/</guid>
       <description>Student Capstone Project Highlight Link to heading Our team of three developed a provincial database of long‐term care (LTC) homes and modelled COVID‐19 outbreaks in British Columbia. This work, completed as part of a capstone project at The University of British Columbia (UBC) under guidance from Statistics Canada, has been highlighted by UBC.</description>
     </item>
   </channel>

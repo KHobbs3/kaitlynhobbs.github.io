@@ -10,10 +10,9 @@ tags = [
     "geographic-weighted-factor-model"
 ]
 categories = [
-    "syntax",
-    "theme demo",
+    "charity-entrepreneurship"
 ]
-series = ["Theme Demo"]
+series = ["portfolio"]
 +++
 
 As part of the Fall 2023 [Research Training Program](https://www.charityentrepreneurship.com/research-training-program) through Charity Entrepreneurship, 16 of us from across the globe met virtually to research and discuss the topic of effective giving over 11-weeks. In it, we learned ways to prioritise cause areas, compared different intervention ideas within a single cause area, and evaluated plausibility and cost-effectiveness of seemingly promising new interventions.

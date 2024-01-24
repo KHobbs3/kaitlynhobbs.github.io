@@ -188,7 +188,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Open Projects"
 weight = 3
-url = "projects/"
+url = "posts/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
@@ -218,7 +218,7 @@ url = "about/"
 #[[languages.pt-fr.menu.main]]
 #name = "Projets Ouverts"
 #weight = 3
-#url = "projects/"
+#url = "posts/"
 
 [[languages.pt-fr.menu.main]]
 name = "Contactez"

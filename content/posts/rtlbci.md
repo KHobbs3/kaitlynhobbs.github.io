@@ -13,10 +13,9 @@ tags = [
     "statistics-canada"
 ]
 categories = [
-    "syntax",
-    "theme demo",
+    "statistics-canada"
 ]
-series = ["Theme Demo"]
+series = ["portfolio"]
 +++
 
 Highlighting several population centres in Canada, the [Real-time Local Business Conditions Index (RTLBCI)](https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2021017-eng.htm) is an experimental indicator of business operations that leverages public and proprietary micro-data.

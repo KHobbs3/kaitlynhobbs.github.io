@@ -10,9 +10,9 @@
     <atom:link href="https://kaitlynhobbs.github.io/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spatial Access Measures.</title>
-      <link>https://kaitlynhobbs.github.io/projects/spatial-access-measures/</link>
+      <link>https://kaitlynhobbs.github.io/posts/spatial-access-measures/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://kaitlynhobbs.github.io/projects/spatial-access-measures/</guid>
+      <guid>https://kaitlynhobbs.github.io/posts/spatial-access-measures/</guid>
       <description>The Spatial Access Measures (SAM) are a result of work commissioned by Infrastructure Canada to develop data and analytical frameworks for assessing the landscape of public transportation in Canada.</description>
     </item>
   </channel>
